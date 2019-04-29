@@ -19,3 +19,5 @@ while True:
 	#	=> products.append([product_name, product_price])
 print(products)
 
+for p in products:
+	print(p[0], '的價格', p[1])
